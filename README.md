@@ -1,4 +1,4 @@
-# Docker GitHub Actions
+# Kordia Docker GitHub Actions Scan
 
 - [ ] docker build and push image
 - [ ] docker metadata
