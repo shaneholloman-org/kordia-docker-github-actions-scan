@@ -73,8 +73,8 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            bretfisher/docker-github-actions-example
-            ghcr.io/bretfisher/docker-github-actions-example
+            shaneholloman/docker-github-actions-example
+            ghcr.io/shaneholloman/docker-github-actions-example
           flavor: |
             latest=false
           tags: |
