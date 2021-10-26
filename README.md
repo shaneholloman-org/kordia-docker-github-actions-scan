@@ -1,8 +1,8 @@
 # Kordia Docker GitHub Actions Scan
 
-- [ ] docker build and push image
-- [ ] docker metadata
-- [ ] docker buildx and multi-platform builds
-- [ ] docker buildkit cache on github actions caching
-- [ ] super linter
-- [ ] image CVE scanning
+- [x] docker build and push image
+- [x] docker metadata
+- [x] docker buildx and multi-platform builds
+- [x] docker buildkit cache on github actions caching
+- [x] super linter
+- [x] image CVE scanning
