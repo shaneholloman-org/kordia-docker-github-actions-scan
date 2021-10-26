@@ -6,3 +6,4 @@
 - [x] docker buildkit cache on github actions caching
 - [x] super linter
 - [x] image CVE scanning
+- [ ] workflow_call inside superlinter
