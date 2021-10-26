@@ -1,0 +1,12 @@
+---
+name: Lint Code Base
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  call-super-linter:
+    uses: shaneholloman/kordia-super-linter/.github/workflows/super-linter.yaml@main
