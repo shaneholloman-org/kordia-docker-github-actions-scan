@@ -7,3 +7,4 @@
 - [x] super linter
 - [x] image CVE scanning
 - [ ] workflow_call inside superlinter
+- [ ] nail down branch workflow
