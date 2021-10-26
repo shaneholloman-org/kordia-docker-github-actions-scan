@@ -9,4 +9,4 @@ on:
 
 jobs:
   call-super-linter:
-    uses: shaneholloman/kordia-super-linter/.github/workflows/super-linter.yaml@main
+    uses: shaneholloman/kordia-super-linter/.github/workflows/super-linter.yaml@master
