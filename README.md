@@ -1,5 +1,8 @@
 # Kordia Docker GitHub Actions Scan
 
+[![GitHub Super-Linter](https://shaneholloman/kordia-docker-github-actions-scan/github.com//workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
+
 - [x] docker build and push image
 - [x] docker metadata
 - [x] docker buildx and multi-platform builds
