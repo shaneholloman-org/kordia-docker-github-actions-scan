@@ -80,7 +80,7 @@ jobs:
           tags: |
             type=raw,value=latest
       -
-        # this will build the amd64 image
+        # build the amd64 image
         name: Docker Build
         id: docker_build
         uses: docker/build-push-action@v2
