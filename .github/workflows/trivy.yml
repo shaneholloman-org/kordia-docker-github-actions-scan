@@ -1,5 +1,5 @@
 ---
-name: Trivy CVE Dependency Scanner
+name: Trivy Scan Deps for CVEs
 
 on:
   push:
