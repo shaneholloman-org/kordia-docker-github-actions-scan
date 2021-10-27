@@ -2,12 +2,12 @@
 name: Reusing Superlint Code Base Standard
 
 on:
-  workflow_call:
   push:
     branches: [main]
   pull_request:
     branches: [main]
 
 jobs:
-  call-super-linter:
-    uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-standard/yaml@main
+  workflow_call:
+  #call-super-linter:
+    uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-standard.yaml@main
