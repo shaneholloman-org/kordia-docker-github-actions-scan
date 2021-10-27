@@ -1,5 +1,5 @@
 ---
-name: Lint Code Base
+name: Reusing Superlint Code Base Standard
 
 on:
   push:
@@ -9,4 +9,4 @@ on:
 
 jobs:
   call-super-linter:
-    uses: shaneholloman/kordia-super-linter/.github/workflows/super-linter-base.yaml@main
+    uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-standard/yaml@main
