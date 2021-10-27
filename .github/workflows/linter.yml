@@ -12,5 +12,7 @@ jobs:
   superlint_all_code:
     name: Superlint All the Code!
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-custom.yaml@main
+      - name: Reference Federated Super Linter
+        uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-custom.yaml@main
