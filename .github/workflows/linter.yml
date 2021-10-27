@@ -10,4 +10,4 @@ on:
 jobs:
   workflow_call:
   #call-super-linter:
-    uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-standard.yaml@main
+    uses: shaneholloman/kordia-super-linter/.github/workflows/superlint-code-base-custom.yaml@main
