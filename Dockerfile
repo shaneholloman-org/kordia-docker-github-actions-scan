@@ -1,4 +1,4 @@
-FROM gcr.io/distroless/python3-debian11:debug
+FROM FROM alpine:edge
 
 ENTRYPOINT ["curl"]
 
