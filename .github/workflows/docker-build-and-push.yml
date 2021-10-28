@@ -20,7 +20,7 @@ on:
       - '.github/workflows/linter.yml'
       - '.github/linters/**'
   schedule:
-    # re-run monthly to keep image fresh with upstream base images
+    # re-run monthly to keep image fresh with upstream base images At 12:00 on day-of-month 15
     - cron: '0 12 15 * *'
   workflow_dispatch:
     # run whenever we want!
