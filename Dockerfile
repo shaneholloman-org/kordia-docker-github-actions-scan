@@ -1,4 +1,4 @@
-FROM FROM alpine:edge
+FROM alpine:edge
 
 ENTRYPOINT ["curl"]
 
