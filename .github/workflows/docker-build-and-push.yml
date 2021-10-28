@@ -73,8 +73,8 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            shaneholloman/docker-github-actions-cve-scan
-            ghcr.io/shaneholloman/docker-github-actions-cve-scan
+            shaneholloman/kordia-docker-github-actions-scan
+            ghcr.io/shaneholloman/kordia-docker-github-actions-scan
           flavor: |
             latest=false
           tags: |
@@ -107,7 +107,7 @@ jobs:
           # or you can sign-up for free at https://snyk.io/login
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          image: shaneholloman/docker-github-actions-cve-scan
+          image: shaneholloman/kordia-docker-github-actions-scan
           args: --file=Dockerfile --severity-threshold=high
       - 
         name: Upload result to GitHub Code Scanning
